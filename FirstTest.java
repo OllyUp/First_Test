@@ -3,7 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class FirstTest extends WebDriverSettings  //ЗМIНИ
+public class FirstTest extends WebDriverSettings
 {
     @Test
     public void firstTest()
@@ -16,7 +16,7 @@ public class FirstTest extends WebDriverSettings  //ЗМIНИ
         }
         catch (Exception e)
         {
-            System.out.println("Страница не найдена");
+            System.out.println("Page not found");
         }
         if(pageLogo.isDisplayed())
         {
