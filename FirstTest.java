@@ -28,7 +28,7 @@ public class FirstTest extends WebDriverSettings
         }
         catch (Exception e)
         {
-            System.out.println("Страница не открилась");
+            System.out.println("Page isn't opened");
         }
     }
 }
