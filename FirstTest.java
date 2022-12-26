@@ -16,7 +16,7 @@ public class FirstTest extends WebDriverSettings
         }
         catch (Exception e)
         {
-            System.out.println("Страница не найдена");
+            System.out.println("Page not found");
         }
         if(pageLogo.isDisplayed())
         {
